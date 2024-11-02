@@ -51,6 +51,16 @@
 - C++ : `g++ -DUNICODE -D_UNICODE main.cpp -o main.exe -mwindows`
 - Rust: `cargo run` or `cargo build`
 - Python: `pyinstaller --onefile --windowed main.py` or `nuitka --onefile --windows-console-mode=disable --enable-plugin=tk-inter main.py`
+
+> [!WARNING]
+> To compile the Rust version you will need to do a few extra steps below:
+1. Install Rust with the curl command `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+2. Install the nightly version of Rust with the command `rustup install nightly`
+3. Set nightly as the default toolchain with `rustup default nightly`
+4. Update the package list with `sudo apt update`
+5. Install dependencies with `sudo apt install cmake libglfw3-dev libglew-dev libglm-dev libxinerama-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxi-dev`
+6. Run the compile command: `cargo build` or `cargo run`
+
 #### Linux (tested on Debian):
 - C: `gcc main.c -o main -lX11`
 - C++ : `g++ main.cpp -o main -lX11`
