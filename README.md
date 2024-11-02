@@ -39,11 +39,11 @@
 - This will be implemented in:
 	- C using [Windows.h](https://en.wikipedia.org/wiki/Windows.h), X11/xlib.h and [unistd.h](https://en.wikipedia.org/wiki/Unistd.h) for Linux
 	- C++ using [Windows.h](https://en.wikipedia.org/wiki/Windows.h) and X11/xlib.h for Linux
-	- Rust using [Winit](https://docs.rs/winit/latest/winit/)
-	- Python using 
+	- Rust using [GLFW](https://docs.rs/glfw/latest/glfw/)
+	- Python using [Tkinter](https://docs.python.org/3/library/tkinter.html#)
 
 > [!WARNING]
-> To compile the executables made with Python you will need to install [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html) and [Nuitka](https://nuitka.net/) for compiling the Python files.
+> To compile the executables made with Python you will need to install [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html) or [Nuitka](https://nuitka.net/) for compiling the Python files.
 
 ### Command used to compile in each language:
 #### Windows:
