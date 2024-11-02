@@ -45,6 +45,13 @@
 > [!WARNING]
 > To compile the executables made with Python you will need to install [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html) or [Nuitka](https://nuitka.net/) for compiling the Python files.
 
+> [!WARNING]
+> To compile the Windows Rust version you will need to do the following steps:
+1. Install [Rust from the website](https://www.rust-lang.org/learn/get-started)
+2. Install the nightly version of rust with the command `rustup install nightly`
+3. Set nightly as the default toolchain with `rustup default nightly`
+4. Run the compile command: `cargo build` or `cargo run`
+
 ### Command used to compile in each language:
 #### Windows:
 - C: `gcc main.c -o main.exe -mwindows`
@@ -53,7 +60,7 @@
 - Python: `pyinstaller --onefile --windowed main.py` or `nuitka --onefile --windows-console-mode=disable --enable-plugin=tk-inter main.py`
 
 > [!WARNING]
-> To compile the Rust version you will need to do a few extra steps below:
+> To compile the Rust version for Linux you will need to do a few extra steps below:
 1. Install Rust with the curl command `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 2. Install the nightly version of Rust with the command `rustup install nightly`
 3. Set nightly as the default toolchain with `rustup default nightly`
