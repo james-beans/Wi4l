@@ -39,7 +39,7 @@
 - This will be implemented in:
 	- C using [Windows.h](https://en.wikipedia.org/wiki/Windows.h), X11/xlib.h and [unistd.h](https://en.wikipedia.org/wiki/Unistd.h) for Linux
 	- C++ using [Windows.h](https://en.wikipedia.org/wiki/Windows.h) and X11/xlib.h for Linux
-	- Rust using [GLFW](https://docs.rs/glfw/latest/glfw/)
+	- Rust using [glfw](https://docs.rs/glfw/latest/glfw/)
 	- Python using [Tkinter](https://docs.python.org/3/library/tkinter.html#)
 
 > [!WARNING]
