@@ -1,0 +1,9 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "rust"
+version = "0.3.5"
+edition = "2024"
+
+[dependencies]
+glfw = "0.58.0"
