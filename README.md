@@ -20,7 +20,7 @@
 ### Links to the code and executables:
 - [C Files](langs/C/)
 - [C++ Files](langs/C++/)
-- [Rust Files](langs/Rust/)
+- [Rust Files](langs/rust/)
 - [Python Files](langs/Python/)
 
 ### Known issues:
