@@ -33,6 +33,17 @@
 	- None known.
 - Python:
 	- None known.
+#### Linux:
+- C: 
+	- None known.
+- C++ :
+	- None known.
+- Rust:
+	- None known.
+- Python:
+	- None known.
+
+<hr />
 
 ### Litterally just a single window implemented in 4 languages.
 - All code and executables will be in the [langs]() folder to use.
@@ -41,6 +52,8 @@
 	- C++ using [Windows.h](https://en.wikipedia.org/wiki/Windows.h) and X11/xlib.h for Linux
 	- Rust using [glfw](https://docs.rs/glfw/latest/glfw/)
 	- Python using [Tkinter](https://docs.python.org/3/library/tkinter.html#)
+ 
+ <hr />
 
 > [!WARNING]
 > To compile the executables made with Python you will need to install [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/index.html) or [Nuitka](https://nuitka.net/) for compiling the Python files.
