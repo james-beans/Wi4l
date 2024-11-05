@@ -2,3 +2,5 @@
 *.md linguist-detectable
 # allows toml project files (*.toml files) to show in the repo capsule
 *.toml linguist-detectable
+# allows lock project files (*.lock files) to show in the repo capsule
+*.lock linguist-detectable
