@@ -1,1 +1,4 @@
 # allows markdown files (*.md files) to show in the repo capsule
+*.md linguist-detectable
+# allows toml project files (*.toml files) to show in the repo capsule
+*.toml linguist-detectable
