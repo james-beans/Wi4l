@@ -81,9 +81,15 @@
 5. Install dependencies with `sudo apt install cmake libglfw3-dev libglew-dev libglm-dev libxinerama-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxi-dev`
 6. Run the compile command: `cargo build` or `cargo run`
 
+> [!WARNING]
+> To compile the C++ version for Linux you will need to do a few extra steps below:
+1. Update the package manager list (apt): `sudo apt update`
+2. Install needed packages: sudo apt install libx11-dev xorg x11-apps libwayland-dev
+3. Run the compile command: `g++ main.cpp -o main -lX11 -lwayland-client`
+
 #### Linux (tested on Debian):
 - C: `gcc main.c -o main -lX11`
-- C++ : `g++ main.cpp -o main -lX11`
+- C++ : `g++ main.cpp -o main -lX11 -lwayland-client`
 - Rust: `cargo run` or `cargo build`
 - Python: `pyinstaller --onefile --windowed main.py` or `nuitka --onefile --windows-console-mode=disable --enable-plugin=tk-inter main.py`
 
